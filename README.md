@@ -1,4 +1,4 @@
-# Currency_convertor_witch_API
+# Currency_convertor_with_API
 
 This project is a simple currency converter that utilizes an API to fetch real-time exchange rates. It allows users to easily and quickly convert one currency into another.
 
