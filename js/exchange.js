@@ -9,7 +9,7 @@ export function performExchange(amount, fromCurrency, toCurrency, data) {
       amountFrom: `${amount} ${fromCurrency}`,
       amountTo: `${convertedAmount.toFixed(2)} ${toCurrency}`,
       rateConversion: `1 ${fromCurrency} = ${conversionRateFrom} ${toCurrency}`,
-      rateLast: `Последнее обновление: ${data.time_last_update_utc}`,
+      rateLast: `Last update: ${data.time_last_update_utc}`,
     };
   } 
 }
